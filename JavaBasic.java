@@ -70,13 +70,35 @@ public class JavaBasic {
     }
 
     //====== Print an given array
-    
+
     public static void printArray(int argsL[]){
 
         for( int i = 0; i < argsL.length; i ++ ){
             System.out.println( argsL[i] );
         }
 
+    }
+
+    public void findMax( int fMax[] ){
+
+        int num = fMax[0];
+        for( int i = 1; i < fMax.length; i++ ){
+            if(fMax[i] > num){
+                num = fMax[i];
+            }
+        }
+        System.out.println(num);
+
+    }
+
+    public void arrayOdds255(){
+        ArrayList<Integer> list = new ArrayList<Integer>();
+        for( int i=1; i<256; i++ ){
+            if( i % 2 != 0 ){
+                list.add(i);
+            }
+        }
+        System.out.println(list);
     }
 
 }
