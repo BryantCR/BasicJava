@@ -79,6 +79,8 @@ public class JavaBasic {
 
     }
 
+    //====== Find the max num on a given array
+
     public void findMax( int fMax[] ){
 
         int num = fMax[0];
@@ -90,6 +92,8 @@ public class JavaBasic {
         System.out.println(num);
 
     }
+
+    //====== Print all odds numbers inside an array
 
     public void arrayOdds255(){
         ArrayList<Integer> list = new ArrayList<Integer>();
