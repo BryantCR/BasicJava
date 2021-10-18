@@ -61,28 +61,22 @@ public class JavaBasic {
     public int sigma255(){
 
         int sum = 0;
-
         for( int i = 1; i < 256; i++ ){
-
             sum += i;
            //System.out.println(sum);
         }
-
         return sum;
 
     }
 
     //====== Print an given array
     
-    public static void printArray(){
+    public static void printArray(int argsL[]){
 
-        int arrayL[] = {1,3,5,7,9,13,26};
-
-        for( int i = 0; i < arrayL.length; i ++ ){
-            System.out.println( arrayL[i] );
+        for( int i = 0; i < argsL.length; i ++ ){
+            System.out.println( argsL[i] );
         }
 
     }
-    printArray();
 
 }
